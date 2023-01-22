@@ -3,6 +3,7 @@
    connection: local
    vars:
     url: palylevel.example.com
+    a: 10
    tasks:
       - name: accessing variables from playlevel
         ansible.builtin.debug:
