@@ -1,6 +1,6 @@
-- name: Printing My Name
+- name: Learning
   hosts: all
   tasks:
     - name: Printing My name
       ansible.builtin.debug:
-       msg: My name is nagababu nalluri, and my wife name is lalitha
+       msg: My name is nagababu nalluri
