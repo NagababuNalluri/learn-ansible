@@ -6,4 +6,4 @@
        msg: My name is nagababu nalluri
 
     - name: Using shell
-      ansible.builtin.shell: touch file5 file6
+      ansible.builtin.shell: ["touch file5 file6","pwd"]
