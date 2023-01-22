@@ -21,7 +21,7 @@
 
       - name: Printing a value
         ansible.builtin.debug:
-              msg: a value is {{a}}
+         msg: a value is {{a}}
 
       - name: accessing variable from files.yml
         ansible.builtin.debug:
