@@ -23,4 +23,4 @@
 
       - name: accessing variable from files
         ansible.builtin.debug:
-          msg: url == {{url}}
+          msg: url == {{abcd}}
