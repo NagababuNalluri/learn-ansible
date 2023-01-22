@@ -1,1 +1,4 @@
-abcd : file.example.com
+a: file.example.com
+b: file1.example.com
+c: file2.example.com
+d: file4.example.com
