@@ -6,7 +6,4 @@
        msg: My name is nagababu nalluri
 
     - name: Using shell
-      ansible.builtin.shell:
-      - touch file7 file8
-      - mkdir nagababu
-      - mkdir lalitha
+      ansible.builtin.shell: echo hi
