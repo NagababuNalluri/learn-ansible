@@ -13,3 +13,13 @@
           msg:
            - This is Nagababu Nalluri from vijayawada
            - I have completed my graduation in B.tech specelization ece
+      - name: example 2 in variables
+        hosts: all
+        connection: localhost
+        vars:
+          a=10
+        tasks:
+          - name: Printing a value
+            ansible.builtin.debug:
+              msg: a value is 10
+              when: a=10
