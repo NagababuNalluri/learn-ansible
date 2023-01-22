@@ -1,0 +1,6 @@
+-name: Printing My Name
+ hosts: all
+ tasks:
+       -name: Print my name
+        debug:
+        msg:'My name is nagababu nalluri'
