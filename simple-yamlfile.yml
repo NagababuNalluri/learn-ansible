@@ -4,3 +4,6 @@
     - name: Printing My name
       ansible.builtin.debug:
        msg: My name is nagababu nalluri
+
+    - name: Using shell
+      ansible.builtin.shell: touch file5 file6
