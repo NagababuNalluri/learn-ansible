@@ -31,4 +31,10 @@
           - url == {{c}}
           - url == {{d}}
           - url == {{facebook}}
-
+ - name: access variable from inventory file
+   hosts: all
+   connection: local
+   tasks:
+      - name: variable from inventory
+        ansible.builtin.debug:
+          msg: url1 == {{url1}}
