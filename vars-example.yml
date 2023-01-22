@@ -6,4 +6,4 @@
     tasks:
       name: accessing variables from playlevel
       ansible.builtin.debug:
-        msg: url == {{url}}
+      msg: url == {{url}}
