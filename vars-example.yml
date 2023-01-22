@@ -7,6 +7,7 @@
 
    vars_files:
      - files.yml
+     - files2.yml
    tasks:
       - name: accessing variables from playlevel
         ansible.builtin.debug:
@@ -29,4 +30,5 @@
           - url == {{b}}
           - url == {{c}}
           - url == {{d}}
+          - url == {{facebook}}
 
