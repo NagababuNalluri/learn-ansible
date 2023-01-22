@@ -15,6 +15,6 @@
            - I have completed my graduation in B.tech specelization ece
 
       - name: Printing a value
-            ansible.builtin.debug:
+        ansible.builtin.debug:
               msg: a value is {{a}}
               when: a=10
