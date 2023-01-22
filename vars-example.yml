@@ -18,4 +18,4 @@
       - name: Printing a value
         ansible.builtin.debug:
               msg: a value is {{a}}
-              when: a=10
+              
