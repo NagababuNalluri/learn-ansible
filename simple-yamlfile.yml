@@ -1,6 +1,6 @@
--name: Printing My Name
- hosts: all
- tasks:
-       -name: Print my name
-        debug:
-        msg:'My name is nagababu nalluri'
+- name: Printing My Name
+  hosts: all
+  tasks:
+    - name: Printing My name
+      ansible.builtin.debug:
+       msg: My name is nagababu nalluri
