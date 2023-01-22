@@ -7,7 +7,7 @@
 
    vars_files:
      - files.yml
-     - files2.yml
+     - file2.yml
    tasks:
       - name: accessing variables from playlevel
         ansible.builtin.debug:
