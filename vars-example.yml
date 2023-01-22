@@ -37,4 +37,4 @@
    tasks:
       - name: variable from inventory
         ansible.builtin.debug:
-          msg: url1 == {{url1}}
+          msg: {{url1}}
