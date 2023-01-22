@@ -7,3 +7,9 @@
       - name: accessing variables from playlevel
         ansible.builtin.debug:
          msg: url == {{url}}
+
+      - name: Print my name
+        ansible.builtin.debug:
+          msg:
+           - This is Nagababu Nalluri from vijayawada
+           - I have completed my graduation in B.tech specelization ece
