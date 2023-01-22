@@ -2,9 +2,11 @@
    hosts: all
    connection: local
    vars:
-
     - url: palylevel.example.com
     - a: 10
+
+   var_files:
+     - files.yml
    tasks:
       - name: accessing variables from playlevel
         ansible.builtin.debug:
@@ -20,8 +22,6 @@
         ansible.builtin.debug:
               msg: a value is {{a}}
 
-      - name: accessing variable from files
+      - name: accessing variable from files.yml
         ansible.builtin.debug:
           msg: url == {{abcd}}
-          vars:
-            - files
