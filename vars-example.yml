@@ -1,9 +1,9 @@
-- name: Declaring variables from play leve
-  hosts: all
-  connection: local
-  vars:
+ - name: Declaring variables from play leve
+   hosts: all
+   connection: local
+   vars:
     url: palylevel.example.com
-    tasks:
+   tasks:
       - name: accessing variables from playlevel
         ansible.builtin.debug:
         msg: url == {{url}}
