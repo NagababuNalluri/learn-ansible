@@ -5,7 +5,7 @@
     - url: palylevel.example.com
     - a: 10
 
-   var_files:
+   vars_files:
      - files.yml
    tasks:
       - name: accessing variables from playlevel
