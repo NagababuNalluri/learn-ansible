@@ -37,3 +37,13 @@
          msg: url = {{url1}}
 
 
+ - name: access facts
+   hosts: all
+   connection: local
+   tasks:
+     - name: Get access facts
+       ansible.builtin.debug:
+         msg: ansible host name = {{ansible_fqdn}}
+
+
+
