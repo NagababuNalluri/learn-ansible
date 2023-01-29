@@ -59,4 +59,9 @@
          msg: "{{out.stdout}}"
 
 
+     - name: set fact
+       ansible.builtin.set_fact:
+         OUT: "{{out.stdout}}"
+
+
 
