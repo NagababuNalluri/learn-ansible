@@ -28,3 +28,12 @@
        ansible.builtin.debug:
          msg: Facebook URL = {{facebook,father,mother,brother,wife,daughter,myself}}
 
+ - name: Variable from inventory
+   hosts: all
+   connection: local
+   tasks:
+     - name: accessing variable from inventory file
+       ansible.builtin.debug:
+         msg: url = {{url}}
+
+
