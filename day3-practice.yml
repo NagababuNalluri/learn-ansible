@@ -46,4 +46,17 @@
          msg: ansible host name = {{ansible_fqdn}}
 
 
+ - name: Storing output in one variable
+   hosts: all
+   connection: local
+   task:
+     -  name: register a variable
+        ansible.builtin.shell: uptime
+        register: out
+
+     - name: store output
+       ansible.builtin.debug:
+         msg: "{{out}}"
+
+
 
