@@ -1,6 +1,5 @@
  - name: Say hello from play level
    hosts: all
-   connection: local
    vars:
      URL: vars.playlevel.com
    task:
