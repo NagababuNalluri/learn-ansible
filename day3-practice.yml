@@ -63,5 +63,9 @@
        ansible.builtin.set_fact:
          OUT: "{{out.stdout}}"
 
+     - name: access OUT
+       ansible.builtin.debug:
+         msg: "{{OUT}}"
+
 
 
