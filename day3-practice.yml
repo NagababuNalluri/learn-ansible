@@ -17,3 +17,14 @@
          - URL2 = {{URL2}}
          - URL3 = {{URL3}}
          - "{{x,y}}"
+
+ - name: Declare variable from files
+   hosts: all
+   connection: local
+   vars_files:
+     - files2.yml
+   tasks:
+     - name: access variable from files
+       ansible.builtin.debug:
+         msg: URL = {{URL}}
+
