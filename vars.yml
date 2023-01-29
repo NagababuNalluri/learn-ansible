@@ -1,0 +1,5 @@
+- name: Getting task from role level
+  hosts: all
+  connection: all
+  roles:
+    - start
