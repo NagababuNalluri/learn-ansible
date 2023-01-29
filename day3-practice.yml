@@ -49,7 +49,7 @@
  - name: Storing output in one variable
    hosts: all
    connection: local
-   task:
+   tasks:
      -  name: register a variable
         ansible.builtin.shell: uptime
         register: out
