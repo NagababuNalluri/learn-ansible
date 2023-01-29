@@ -5,6 +5,7 @@
      - URL: vars.playlevel.com
      - URL1: vars.playlevel1.com
      - URL2: vars.playlevel2.com
+     - URL3: Vars.playlevel3.com
    tasks:
      - name: Task level hello
        ansible.builtin.debug:
@@ -12,4 +13,4 @@
          - URL = {{URL}}
          - URL1 = {{URL1}}
          - URL2 = {{URL2}}
-         - URL3= {{URL3}}
+         - URL3 = {{URL3}}
