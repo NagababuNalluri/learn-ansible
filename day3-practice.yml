@@ -3,7 +3,7 @@
    connection: local
    vars:
      URL: vars.playlevel.com
-   task:
+   tasks:
      - name: Task level hello
        ansible.builtin.debug:
          msg: URL = {{URL}}
