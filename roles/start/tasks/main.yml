@@ -1,7 +1,4 @@
 - name: start using of roles
   ansible.builtin.debug:
-    msg: "It is from roles dir"
+    msg: It is from roles dir
 
-- name: access variable from vars
-  ansible.builtin.debug:
-    msg: URL = {{URL}}
