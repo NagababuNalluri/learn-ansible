@@ -26,5 +26,5 @@
    tasks:
      - name: access variable from files
        ansible.builtin.debug:
-         msg: Facebook URL = {{facebook,father}}
+         msg: Facebook URL = {facebook,father}
 
