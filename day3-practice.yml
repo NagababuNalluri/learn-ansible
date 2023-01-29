@@ -56,7 +56,7 @@
 
      - name: store output
        ansible.builtin.debug:
-         msg: "{{out}}"
+         msg: "{{out.stdout}}"
 
 
 
