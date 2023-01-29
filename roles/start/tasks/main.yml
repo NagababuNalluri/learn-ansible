@@ -4,4 +4,4 @@
 
 - name: access variable from vars
   ansible.builtin.debug:
-    msg: URL={{URL}}
+    msg: URL = {{URL}}
